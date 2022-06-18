@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    padding: 3%;
+    /* padding: 3%; */
 }
 
 .myname {
@@ -23,6 +23,7 @@ body {
     text-align: center;
     color: #284B63;
     font-family: 'Fredoka One', cursive;
+    margin-top: 20px;
 }
 
 .myname p {
@@ -49,7 +50,7 @@ body {
 .text-description {
     position: absolute;
     top: 20%;
-    right: 17%;
+    right: 20%;
 }
 
 .text-description p {
@@ -63,7 +64,7 @@ body {
 
 .contact {
     position: absolute;
-    right: 23%;
+    right: 26%;
     bottom: 10%;
 }
 
