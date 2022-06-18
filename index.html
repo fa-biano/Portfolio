@@ -4,37 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Portfólio de Fabiano de Souza</title>
 </head>
 <body>
-    <h1>Fabiano de Souza</h1>
-    <p>Full stack web developer student</p>
+    <div class="myname">
+        <h1>Fabiano de Souza</h1>
+        <p>Full stack web developer student</p>
+    </div>
 
-    <img src="./img-fabiano.jpg" alt="Fabiano de Souza" width="300px">
-    <p>
-        <em> Sou apaixonado por tecnologia desde sempre. Adoro tirar as ideias do papel e trazê-las a vida. </em> <br> 
-        <strong>Nacionalidade:</strong> Brasileiro<br> 
-        <strong>Mora em:</strong> São Paulo-SP
-    </p>
-    
-    <a href="https://www.linkedin.com/in/fabiano-desouza/" target="_blank">Acesse meu LinkedIn</a>
-    
-    <h2>Soft Skills</h2>
-    <ul>
-        <li>Comunicação Assertiva</li>
-        <li>Liderança</li>
-        <li>Organização</li>
-        <li>Planejamento</li>
-        <li>Gestão do tempo</li>
-    </ul>
+    <div class="description">
+        <div class="img-container">
+            <img src="./img-fabiano.jpg" alt="Fabiano de Souza" width="300px">
+        </div>
 
-    <h2>Hard Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ul>
-    <br><br><br><br>
+        <div v class="text-description">
+            <em>
+                <p>Sou apaixonado por tecnologia desde sempre.</p>
+                <p>Adoro tirar as ideias do papel e trazê-las a vida.</p>
+            </em>
+
+            <p><strong class="text-green">Nacionalidade:</strong> Brasileiro</p>
+            <p><strong class="text-green">Mora em:</strong> São Paulo-SP</p>
+            
+        </div>
+
+        <div class="contact">
+            <a class="button" href="https://www.linkedin.com/in/fabiano-desouza/" target="_blank">Acesse meu LinkedIn</a>
+        </div>
+    </div>
+    
+    <div class="skills-container">
+        <div class="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul class="skill-list">
+                <li>Comunicação Assertiva</li>
+                <li>Liderança</li>
+                <li>Organização</li>
+                <li>Planejamento</li>
+                <li>Gestão do tempo</li>
+            </ul>
+        </div>
+
+        <div class="hard-skills">
+            <h2>Hard Skills</h2>
+            <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+    </div>
     
 </body>
 </html>

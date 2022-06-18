@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Paleta de cores {
+    color: #2A9D8F;
+    color: #F1FAEE;
+    color: #FFFFFF;
+    color: #384952;
+    color: #12181E;
+    color: #284B63;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.myname {
+    font-size: 30px;
+    text-align: center;
+    color: #284B63;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 20px;
+}
+
+.myname p {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.description {
+    height: 340px;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto auto auto;
+    position: relative;
+}
+
+.img-container img {
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+    background-color: #284B63;
+}
+
+.text-description {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.text-description p {
+    margin-top: 10px;
+}
+
+.text-green {
+    color: #2A9D8F;
+    font-style: italic;
+}
+
+.contact {
+    position: absolute;
+    right: 26%;
+    bottom: 10%;
+}
+
+.button {
+    background-color: #F1FAEE;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #2A9D8F;
+    font-weight: 700;
+}
+
+.button:hover {
+    color:#F1FAEE;
+    background-color: #2A9D8F;
+}
+
+.skills-container {
+    width: 70%;
+    margin: 20px auto auto auto;
+}
+
+.soft-skills,
+.hard-skills {
+    display: inline-block;
+    width: 34%;
+    margin: 0 0% 0 5%;
+    vertical-align: top;
+}
+
+h2 {
+    color: #284B63;
+    font-weight: 800;
+}
+
+.skill-list {
+    font-size: 1.2em;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color:gainsboro;
+}
